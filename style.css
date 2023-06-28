@@ -1,0 +1,61 @@
+.logo {
+  height: 115px;
+  width: 115px;
+
+}
+
+.button {
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+}
+
+.varsity-name {
+  left: 182px;
+  top: 28px;
+  position: absolute;
+  max-width: 82%;
+
+}
+
+.donate {
+  max-width: 90%;
+}
+
+
+
+@media only screen and (max-width: 300px) {
+  .img-fluid {
+    max-width: 49%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 765px) {
+  .logo{
+    width: 262px;
+    height: 108px;
+
+  }
+  
+  
+  img {
+    vertical-align: baseline;
+  }
+
+  .container-fluid {
+    --bs-gutter-x: 0.5rem;
+  }
+
+  .img-fluid {
+    max-width: 53%;
+  }
+
+
+}
